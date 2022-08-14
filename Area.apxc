@@ -1,0 +1,30 @@
+public class Area {
+public Double val1 {get;set;}
+    public Double val2 {get;set;}
+    public Double result {get;set;}
+    public String func {get;set;}
+    
+    public void areaof (){
+        
+        
+        if( func == 'cir')
+        {
+            result=3.14*val1*val1;
+        }
+        
+        else if(func == 'rec')
+        {
+            result = val1*val2;
+        }
+        
+        else
+        {
+            result = .5*val1*val2;
+        }
+        
+    }
+
+
+
+
+}
